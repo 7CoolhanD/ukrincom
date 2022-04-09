@@ -164,9 +164,17 @@ a {
   margin: 0 48px 0 0;
 }
 
+.header__button-volunteer:hover {
+  background-color: #fde08c;
+}
+
 .header__button-findVolunteer {
   background: #0082d1;
   color: #ffffff;
+}
+
+.header__button-findVolunteer:hover {
+  background-color: #5fb7fe;
 }
 
 .header-decoration__img {
