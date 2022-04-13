@@ -598,10 +598,9 @@ a {
   flex-direction: column;
 }
 
-.input__container > input {
+/* .input__container > input {
   background: #f6f9ff;
   border: 1px solid #e6ebf4;
-  box-sizing: border-box;
   border-radius: 32px;
   width: 584px;
   height: 56px;
@@ -610,11 +609,7 @@ a {
   font-family: Montserrat-Regular;
   font-size: 20px;
   color: #071232;
-}
-
-.input__container > input:focus {
-  border: 1px solid #0099fe;
-}
+} */
 
 .input__container > label {
   padding-left: 27px;
@@ -622,6 +617,23 @@ a {
   font-family: Montserrat-Regular;
   font-size: 14px;
   color: #60677a;
+}
+
+.inputYourData {
+  background: #f6f9ff;
+  border: 1px solid #e6ebf4;
+  border-radius: 32px;
+  padding: 14px 24px;
+  margin-bottom: 24px;
+  font-family: Montserrat-Regular;
+  font-size: 20px;
+  color: #071232;
+  resize: none;
+  outline: none;
+}
+
+.inputYourData:focus {
+  border: 1px solid #0099fe;
 }
 
 .input__sendButton {
@@ -653,7 +665,7 @@ a {
 
 /* =============== fotter ================== */
 
-.fotter {
+.footer {
   padding: 924px 360px 80px;
   display: flex;
   justify-content: space-around;
@@ -669,7 +681,7 @@ a {
 .footer__column > p > a {
   font-family: Montserrat-Regular;
   font-size: 20px;
-  line-height 28px;
+  line-height: 28px;
   color: #071232;
   margin-bottom: 32px;
 }
