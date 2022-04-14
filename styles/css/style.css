@@ -88,6 +88,10 @@
   color: #071232;
 }
 
+.active {
+  color: #0082d1;
+}
+
 .nav__links > li > a:hover {
   color: #0082d1;
 }
@@ -539,7 +543,7 @@ a {
   position: absolute;
   width: 1840px;
   height: 1016px;
-  top: 10780px;
+  bottom: 624px;
   left: 40px;
   background: #e3f2fe;
   border-radius: 80px;
@@ -597,19 +601,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
-/* .input__container > input {
-  background: #f6f9ff;
-  border: 1px solid #e6ebf4;
-  border-radius: 32px;
-  width: 584px;
-  height: 56px;
-  padding: 14px 24px;
-  margin-bottom: 24px;
-  font-family: Montserrat-Regular;
-  font-size: 20px;
-  color: #071232;
-} */
 
 .input__container > label {
   padding-left: 27px;
