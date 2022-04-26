@@ -27,7 +27,7 @@
 }
 
 .wrapper {
-  width: 1920px;
+  max-width: 100%;
   margin: 0 auto;
   color: #071232;
   position: relative;
@@ -35,25 +35,23 @@
 
 /* =============== navigation ================== */
 
-.logo {
-  width: 180px;
-  height: 40px;
-  margin-top: 8px;
-  margin: 8px 180px 0 0;
-}
-
 .nav {
   position: absolute;
   top: 24px;
   left: 24px;
-  width: 1872px;
+  width: 97.5%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   border-radius: 40px;
   background-color: #ffffff;
   border: 1px solid #e6ebf4;
-  padding: 10px 12px 0 32px;
+  padding: 0.5% 0.5% 0.5% 1.5%;
+}
+
+.logo {
+  max-width: 100%;
+  margin: 0% 8% 0 0;
 }
 
 .nav__links {
@@ -216,13 +214,12 @@ a {
 
 .contacts {
   position: absolute;
-  width: 1840px;
-  height: 1016px;
+  width: 95.83%;
   bottom: 624px;
-  left: 40px;
+  left: 2%;
   background: #e3f2fe;
   border-radius: 80px;
-  padding: 160px 320px;
+  padding: 160px 15%;
 }
 
 .contact__title {
@@ -278,7 +275,7 @@ a {
 }
 
 .input__container > label {
-  padding-left: 27px;
+  padding-left: 5%;
   margin-bottom: 18px;
   font-family: Montserrat-Regular;
   font-size: 14px;
@@ -304,7 +301,7 @@ a {
 
 .input__sendButton {
   text-align: center;
-  width: 340px;
+  width: 60%;
   height: 56px;
   color: #ffffff;
   background: #0082d1;
@@ -332,7 +329,7 @@ a {
 /* =============== fotter ================== */
 
 .footer {
-  padding: 924px 360px 80px;
+  padding: 924px 15% 80px;
   display: flex;
   justify-content: space-around;
 }

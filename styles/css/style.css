@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid rgb(233, 104, 104);
-}
+} */
 
 @font-face {
   font-family: Montserrat-Regular;
@@ -37,16 +37,10 @@
   position: relative;
 }
 
-/* img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 .header {
   position: absolute;
   width: 95.83%;
   height: 856px;
-  /* left: calc(50% - 1840px / 2); */
   left: 2%;
   top: 0px;
   display: flex;
@@ -57,22 +51,23 @@
 }
 
 /* =============== navigation ================== */
-.logo {
-  max-width: 100%;
-  margin: 0% 8% 0 0;
-}
 
 .nav {
   position: absolute;
-  top: 2%;
+  top: 24px;
   width: 101.6%;
-  min-height: 9%;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   border-radius: 40px;
   background-color: #ffffff;
   border: 1px solid #e6ebf4;
   padding: 0.5% 0.5% 0.5% 1.5%;
+}
+
+.logo {
+  max-width: 100%;
+  margin: 0% 8% 0 0;
 }
 
 .nav__links {
@@ -185,7 +180,7 @@ a {
 
 .header__button-volunteer {
   background: #ffd100;
-  margin: 0 48px 0 0;
+  margin: 0 2% 0 0;
 }
 
 .header__button-volunteer:hover {
@@ -741,4 +736,598 @@ a {
 
 .footer__column > p > a:hover {
   color: #0099fe;
+}
+
+@media screen and (min-width: 1641px) and (max-width: 1919px) {
+  /* =============== navigation ================== */
+  .nav {
+    height: 64px;
+  }
+
+  .logo {
+    max-width: 20%;
+    margin: 0 10% 0 0;
+  }
+
+  .nav__links > li > a {
+    font-size: 1.2rem;
+  }
+
+  .nav__links > li {
+    margin-right: 28px;
+  }
+
+  .nav__bottons > button {
+    width: 172px;
+    height: 48px;
+    font-size: 1rem;
+  }
+
+  /* =============== header-title ================== */
+
+  .header__title {
+    font-size: 3.9rem;
+    line-height: 5rem;
+  }
+
+  .header__sub-title {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    padding: 0 20%;
+    margin: 0 0 42px 0;
+  }
+
+  .header__container > button {
+    height: 68px;
+    font-size: 1.2rem;
+  }
+
+  /* =============== ourProjects ================== */
+  .ourProjects {
+    padding: 140px 12% 184px;
+  }
+
+  /* =============== howYouCanHelp ================== */
+  .howYouCanHelp {
+    padding: 1740px 40px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1640px) {
+  /* =============== navigation ================== */
+  .nav {
+    height: 62px;
+  }
+
+  .logo {
+    max-width: 20%;
+    margin-right: 8%;
+  }
+
+  .nav__links > li > a {
+    font-size: 1.1rem;
+  }
+
+  .nav__links > li {
+    margin-right: 12px;
+  }
+
+  .nav__bottons > button {
+    width: 164px;
+    height: 48px;
+    font-size: 1rem;
+  }
+
+  /* =============== header-title ================== */
+
+  .header__title {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+
+  .header__sub-title {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    padding: 0 20%;
+    margin: 0 0 42px 0;
+  }
+
+  .header__container > button {
+    height: 62px;
+    font-size: 1rem;
+  }
+
+  /* =============== whyVolunteer ================== */
+
+  .whyVolunteer__section {
+    padding: 0 8%;
+  }
+
+  /* =============== whatWeDoing ================== */
+
+  .whatWeDoing {
+    padding: 110px 8% 180px;
+  }
+
+  .whatWeDoing__mainTitle {
+    font-size: 5.5rem;
+  }
+
+  .whatWeDoingCard__img {
+    margin: 0 0 80px 0;
+    max-width: 100%;
+  }
+
+  .whatWeDoingCard__title-number {
+    font-size: 5.5rem;
+  }
+
+  .whatWeDoingCard__title {
+    font-size: 2.8rem;
+  }
+
+  /* =============== ourProjects ================== */
+  .ourProjects {
+    padding: 140px 7% 184px;
+    top: 4550px;
+  }
+
+  /* =============== howYouCanHelp ================== */
+  .howYouCanHelp {
+    padding: 1820px 40px 0;
+  }
+
+  .howYouCanHelp__card {
+    padding: 104px 10%;
+  }
+}
+
+/* =============== ourBlog ================== */
+
+.ourBlog {
+  margin-top: 428px;
+  padding: 265px 8% 340px;
+}
+
+/* =============== contacts ================== */
+
+.contacts {
+  bottom: 624px;
+  left: 2%;
+  background: #e3f2fe;
+  border-radius: 80px;
+  padding: 140px 10%;
+}
+
+/* =============== fotter ================== */
+
+.footer {
+  padding: 924px 8% 80px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  /* =============== navigation ================== */
+  .nav {
+    height: 62px;
+    top: 16px;
+  }
+  .logo {
+    max-width: 16%;
+    margin-right: 2%;
+  }
+  .nav__links > li > a {
+    font-size: 1rem;
+  }
+  .nav__links > li {
+    margin-right: 14px;
+  }
+  .nav__bottons > button {
+    width: 164px;
+    height: 48px;
+    font-size: 0.9rem;
+    padding: 10px 24px 10px 12px;
+  }
+  /* =============== header-title ================== */
+  .header {
+    height: 708px;
+  }
+
+  .header__title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .header__sub-title {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    padding: 0 20%;
+    margin: 0 0 42px 0;
+  }
+
+  .header__container > button {
+    height: 56px;
+    font-size: 1rem;
+  }
+
+  .ellipse-1 {
+    height: 170px;
+    width: 170px;
+    left: 6%;
+    top: 110px;
+  }
+  .ellipse-2 {
+    height: 160px;
+    width: 160px;
+    left: 12%;
+    top: 500px;
+  }
+  .ellipse-3 {
+    height: 98px;
+    width: 98px;
+    left: 3%;
+    top: 344px;
+  }
+  .ellipse-4 {
+    height: 220px;
+    width: 220px;
+    right: 7%;
+    top: 438px;
+  }
+  .ellipse-5 {
+    height: 142px;
+    width: 142px;
+    right: 5%;
+    top: 149px;
+  }
+  /* =============== partners ================== */
+  .main {
+    padding: 790px 3% 0;
+  }
+
+  .partners {
+    margin-bottom: 116px;
+  }
+
+  .partners > img {
+    width: 12%;
+  }
+  /* =============== whyVolunteer ================== */
+  .whyVolunteer__section {
+    padding: 0 6%;
+    margin: 0 0 150px;
+  }
+
+  .volunteer__img {
+    margin-right: 4%;
+  }
+
+  .whyVolunteer__title {
+    font-family: Montserrat-SemiBold;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .whyVolunteer__sub-title {
+    font-family: Montserrat-Regular;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+  }
+  /* =============== whatWeDoing ================== */
+
+  .whatWeDoing {
+    padding: 110px 4% 180px;
+  }
+
+  .whatWeDoing__mainTitle {
+    font-size: 4.5rem;
+  }
+
+  .whatWeDoingCard__img {
+    margin: 0 0 80px 0;
+    max-width: 100%;
+  }
+
+  .whatWeDoingCard__title-number {
+    font-size: 4.5rem;
+  }
+
+  .whatWeDoingCard__title {
+    font-size: 2.3rem;
+  }
+  /* =============== ourProjects ================== */
+  .ourProjects {
+    padding: 86px 5% 142px;
+    top: 4192px;
+  }
+  .ourProjects__card > img {
+    width: 100%;
+  }
+  .ourProject__button_volunteer {
+    width: 250px;
+    height: 52px;
+    padding: 8px;
+    font-size: 1rem;
+    margin-right: 16px;
+  }
+  .ourProject__button_partner {
+    width: 250px;
+    height: 52px;
+    padding: 14px 24px 14px 16px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* =============== navigation ================== */
+  .nav {
+    height: 54px;
+    top: 14px;
+  }
+  .logo {
+    max-width: 14%;
+    margin-right: 2%;
+  }
+  .nav__links {
+    margin: 8px 0;
+  }
+  .nav__links > li > a {
+    font-size: 0.8rem;
+  }
+  .nav__links > li {
+    margin-right: 10px;
+  }
+  .nav__bottons > button {
+    width: 138px;
+    height: 42px;
+    font-size: 0.8rem;
+    padding: 8px 24px 8px 8px;
+  }
+  /* =============== header-title ================== */
+  .header {
+    height: 708px;
+  }
+
+  .header__title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+
+  .header__sub-title {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding: 0 20%;
+    margin: 0 0 42px 0;
+  }
+
+  .header__container > button {
+    height: 52px;
+    font-size: 0.9rem;
+  }
+
+  .ellipse-1 {
+    height: 136px;
+    width: 136px;
+    left: 6%;
+    top: 110px;
+  }
+  .ellipse-2 {
+    height: 128px;
+    width: 128px;
+    left: 12%;
+    top: 500px;
+  }
+  .ellipse-3 {
+    height: 78px;
+    width: 78px;
+    left: 3%;
+    top: 344px;
+  }
+  .ellipse-4 {
+    height: 176px;
+    width: 176px;
+    right: 7%;
+    top: 438px;
+  }
+  .ellipse-5 {
+    height: 114px;
+    width: 114px;
+    right: 5%;
+    top: 149px;
+  }
+  /* =============== partners ================== */
+  .main {
+    padding: 790px 3% 0;
+  }
+
+  .partners {
+    margin-bottom: 116px;
+  }
+
+  .partners > img {
+    width: 12%;
+  }
+  /* =============== whyVolunteer ================== */
+  .whyVolunteer__section {
+    padding: 0 3%;
+    margin: 0 0 150px;
+  }
+
+  .volunteer__img {
+    margin-right: 4%;
+  }
+
+  .whyVolunteer__title {
+    font-family: Montserrat-SemiBold;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .whyVolunteer__sub-title {
+    font-family: Montserrat-Regular;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  /* =============== whatWeDoing ================== */
+
+  .whatWeDoing {
+    padding: 110px 4% 180px;
+  }
+
+  .whatWeDoing__mainTitle {
+    font-size: 4.5rem;
+  }
+
+  .whatWeDoingCard__img {
+    margin: 0 0 80px 0;
+    max-width: 100%;
+  }
+
+  .whatWeDoingCard__title-number {
+    font-size: 4.5rem;
+  }
+
+  .whatWeDoingCard__title {
+    font-size: 2.3rem;
+  }
+  /* =============== ourProjects ================== */
+  .ourProjects {
+    padding: 60px 5% 80px;
+    top: 3780px;
+  }
+
+  .ourProjects__title {
+    font-size: 3.5rem;
+  }
+  .ourProjects__card > img {
+    width: 100%;
+  }
+  .ourProjects__card-title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .ourProject__card-subTitle {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding-right: 40px;
+    margin: 0 0 24px;
+  }
+
+  .ourProjects__card > button {
+    width: 200px;
+    height: 52px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 8px;
+  }
+
+  .ourProject__button_volunteer {
+    margin-right: 12px;
+  }
+  /* =============== howYouCanHelp ================== */
+  .howYouCanHelp {
+    padding: 1300px 40px 0;
+  }
+  .howYouCanHelp__main-title {
+    font-size: 3.5rem;
+  }
+  .howYouCanHelp__card {
+    padding: 104px 10%;
+  }
+  .howYouCanHelp__card > h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .howYouCanHelp__card > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .howYouCanHelp__card > button {
+    width: 30%;
+    height: 52px;
+    font-size: 0.9rem;
+  }
+  .bgColorYellow {
+    width: 92%;
+  }
+  /* =============== ourBlog ================== */
+  .ourBlog {
+    margin-top: 370px;
+    padding: 160px 6% 240px;
+  }
+  .ourBlog__card > img {
+    width: 100%;
+  }
+  .ourBlog__title {
+    font-size: 3.5rem;
+  }
+  .ourBlog__card > h3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .ourBlog__card > p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .blog__date {
+    font-size: 0.5rem;
+    line-height: 0;
+  }
+
+  .ourBlog__button {
+    width: 260px;
+    height: 46px;
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+  /* =============== contacts ================== */
+  .contacts {
+    bottom: 480px;
+    left: 2%;
+    padding: 90px 8%;
+  }
+  .contact__title {
+    font-size: 3.5rem;
+    margin: 0 0 60px;
+  }
+  .contacts__container > div > h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-right: 90px;
+  }
+  .socialNetworks > a > img {
+    width: 10%;
+  }
+  .socialNetwork__link {
+    font-size: 16px;
+  }
+  .input__container > label {
+    padding-left: 5%;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .inputYourData {
+    padding: 10px 24px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+  .input__sendButton {
+    width: 50%;
+    height: 46px;
+    font-size: 1rem;
+  }
+  /* =============== fotter ================== */
+  .footer {
+    padding: 628px 4% 80px;
+  }
+  .footer__column > h3 {
+    font-size: 1.5rem;
+    margin-bottom: 52px;
+  }
+  .footer__column > p > a {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 32px;
+  }
 }
