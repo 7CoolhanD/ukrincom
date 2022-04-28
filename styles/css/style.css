@@ -106,7 +106,7 @@ a {
   text-decoration: none;
 }
 
-.nav__bottons > button {
+.nav__buttons > button {
   width: 199px;
   height: 56px;
   border: none;
@@ -765,7 +765,7 @@ a {
     margin-right: 28px;
   }
 
-  .nav__bottons > button {
+  .nav__buttons > button {
     width: 172px;
     height: 48px;
     font-size: 1rem;
@@ -824,7 +824,7 @@ a {
     margin-right: 12px;
   }
 
-  .nav__bottons > button {
+  .nav__buttons > button {
     width: 164px;
     height: 48px;
     font-size: 1rem;
@@ -944,7 +944,7 @@ a {
   .nav__links > li {
     margin-right: 14px;
   }
-  .nav__bottons > button {
+  .nav__buttons > button {
     width: 164px;
     height: 48px;
     font-size: 0.9rem;
@@ -1099,7 +1099,7 @@ a {
   .nav__links > li {
     margin-right: 10px;
   }
-  .nav__bottons > button {
+  .nav__buttons > button {
     width: 138px;
     height: 42px;
     font-size: 0.8rem;
@@ -1376,13 +1376,13 @@ a {
   .nav__links > li {
     margin-right: 8px;
   }
-  .nav__bottons > button {
+  .nav__buttons > button {
     width: 94px;
     height: 34px;
     font-size: 0.55rem;
     padding: 0 5px 0 0;
   }
-  .nav__bottons > button > img {
+  .nav__buttons > button > img {
     width: 14%;
     top: 10px;
   }
@@ -1665,11 +1665,11 @@ a {
     display: flex;
     justify-content: flex-end;
     border-radius: 28px;
-    padding: 8px 10px 0;
+    padding: 8px 15px 0;
     top: 4px;
     transition: all 0.2s ease 0s;
+    z-index: 2;
   }
-
   .logo {
     width: 117px;
     margin: 0 0 0 0;
@@ -1677,12 +1677,9 @@ a {
     top: 14px;
     left: 10px;
   }
-
   .nav__menu {
     transition: all 0.3s ease 0s;
-    overflow: auto;
   }
-
   .nav__burger {
     display: block;
     position: relative;
@@ -1718,6 +1715,7 @@ a {
   .nav__links {
     list-style: none;
     display: none;
+    overflow: auto;
   }
 
   .nav__links > li {
@@ -1730,62 +1728,22 @@ a {
     line-height: 1.5rem;
   }
 
-  .nav__bottons {
+  .nav__buttons {
     padding-top: 2px;
     margin-right: 20px;
   }
 
-  .nav__bottons > button {
+  .nav__buttons > button {
     width: 36px;
     height: 36px;
-    border: none;
     font-size: 0;
     line-height: 0;
     padding: 0;
   }
 
-  .nav__bottons > button > img {
+  .nav__buttons > button > img {
     top: 6px;
     left: 6px;
-  }
-
-  .nav_button_btc {
-    background: #ffd100;
-    border-radius: 32px;
-    position: relative;
-  }
-
-  .nav_button_dollar {
-    color: #ffffff;
-    background: #0082d1;
-    border-radius: 32px;
-    position: relative;
-  }
-
-  .nav_button_btc > img {
-    position: absolute;
-  }
-
-  .nav_button_btc:hover {
-    background-color: #fde08c;
-  }
-
-  .nav_button_btc:focus {
-    background: #e6ebf4;
-    color: #60677a;
-  }
-
-  .nav_button_dollar > img {
-    position: absolute;
-  }
-
-  .nav_button_dollar:hover {
-    background-color: #5fb7fe;
-  }
-
-  .nav_button_dollar:focus {
-    background: #e6ebf4;
-    color: #60677a;
   }
   .ellipse-1,
   .ellipse-2,
@@ -1794,6 +1752,7 @@ a {
   .ellipse-5 {
     display: none;
   }
+  /* =============== navigation active ================== */
   .nav.is-active {
     justify-content: center;
     height: 500px;
@@ -1807,8 +1766,13 @@ a {
     flex-direction: column;
     padding: 50px 0 0 30%;
   }
-  .nav__bottons.is-active {
-    margin: 0 auto;
+  .nav__buttons.is-active {
+    margin: 0 0 0 10px;
+  }
+
+  .nav__buttons.is-active > button > img {
+    position: absolute;
+    left: 65%;
   }
 
   .nav_button_btc.is-active,
@@ -1818,6 +1782,7 @@ a {
     font-size: 0.8rem;
     padding: 8px 24px 8px 8px;
   }
+
   .nav__burger.is-active:before {
     transform: rotate(45deg);
     top: 19px;
@@ -1831,3 +1796,200 @@ a {
   }
 }
 /* =============== header-title ================== */
+.header {
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0 0 5rem 5rem;
+  padding: 80px 2%;
+  height: auto;
+  border-radius: 0px 0px 40px 40px;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__container > button {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.header__title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.header__sub-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0 2%;
+  margin: 0 0 48px 0;
+}
+/* =============== partners ================== */
+.main {
+  padding: 732px 2% 0;
+}
+.partners {
+  margin-bottom: 110px;
+}
+/* =============== whyVolunteer ================== */
+.whyVolunteer__section {
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 80px;
+}
+.volunteer__img {
+  width: 100%;
+}
+.whyVolunteer__title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.whyVolunteer__sub-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+/* =============== whatWeDoing ================== */
+.whatWeDoing {
+  padding: 80px 2% 160px;
+  flex-direction: column;
+}
+.whatWeDoing__card {
+  flex-direction: column;
+}
+.whatWeDoing__mainTitle {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.whatWeDoingCard__title-number {
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+.whatWeDoingCard__title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 0;
+}
+.whatWeDoingCard__sub-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0;
+}
+.whatWeDoingCard__img {
+  width: 100%;
+}
+/* =============== ourProjects ================== */
+.ourProjects {
+  top: 4628px;
+  border-radius: 40px;
+  padding: 80px 2% 72px;
+}
+.ourProjects__title {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}
+.ourProjectsCard__container {
+  display: flex;
+  flex-direction: column;
+}
+.ourProjects__card > img {
+  width: 100%;
+}
+.ourProjects__card-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.ourProject__card-subTitle {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.ourProjects__card > button {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* =============== howYouCanHelp ================== */
+.howYouCanHelp {
+  padding: 2777px 2% 0;
+}
+.howYouCanHelp__main-title {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 48px;
+}
+.howYouCanHelp__card {
+  padding: 40px 12px;
+  border-radius: 40px;
+}
+.howYouCanHelp__card > h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 0;
+}
+.howYouCanHelp__card > p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.howYouCanHelp__card > button {
+  width: 100%;
+  height: 64px;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.bgColorYellow > button.nav_button_btc {
+  margin-bottom: 16px;
+}
+/* =============== ourBlog ================== */
+.ourBlog {
+  padding: 180px 2% 340px;
+}
+.ourBlog__title {
+  font-size: 2.5rem;
+}
+.ourBlogCard__container {
+  display: flex;
+  flex-direction: column;
+}
+.ourBlog__card > img {
+  width: 100%;
+}
+.blog__date {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+.ourBlog__card > h3 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.ourBlog__card > p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.hidden {
+  display: none;
+}
+
+/* =============== contacts ================== */
+.contacts {
+  padding: 80px 2%;
+
+  height: auto;
+  border-radius: 40px;
+}
+.contact__title {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 48px;
+}
+.contacts__container {
+  flex-direction: column;
+}
+.contacts__container > div > h3 {
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}

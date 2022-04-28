@@ -42,7 +42,7 @@
                   <a href="./contacts.html">Контакти</a>
                 </li>
               </ul>
-              <div class="nav__bottons">
+              <div class="nav__buttons">
                 <button class="nav_button_btc">
                   Підтримати
                   <img src="../img/icons_SVG/bitcoin-(btc).svg" alt="btc" />
@@ -202,23 +202,11 @@
           <img src="../img/partner_list/aptivate.svg" alt="aptivate" />
         </div>
         <div class="whyVolunteer__section">
-          <picture class="volunteer__img">
-            <source
-              srcset="../img/card_image_main_page/volunteers_max-width_1440.png"
-              type="image/png"
-              media="(max-width:1440px)"
-            />
-            <source
-              srcset="../img/card_image_main_page/volunteers_max-width_768.png"
-              type="image/png"
-              media="(max-width:768px)"
-            />
-            <img
-              class="volunteer__img"
-              src="../img/card_image_main_page/volunteers.png"
-              alt="volunteers"
-            />
-          </picture>
+          <img
+            class="volunteer__img"
+            src="../img/card_image_main_page/volunteers.png"
+            alt="volunteers"
+          />
           <div class="whyVolunteer__row">
             <h2 class="whyVolunteer__title">Чому саме волонтерство?</h2>
             <p class="whyVolunteer__sub-title">
@@ -447,7 +435,7 @@
               жінок і чоловіків, надання гуманітарної допомоги.
             </p>
           </div>
-          <div class="ourBlog__card">
+          <div class="ourBlog__card hidden">
             <img src="../img/our-blog-cards/Image4.png" alt="blogImg" />
             <p><span class="blog__date">29 Березня 2022</span></p>
             <h3>Officiis et dolores vero. Accusamus possimus alias.</h3>
@@ -457,8 +445,8 @@
               жінок і чоловіків, надання гуманітарної допомоги.
             </p>
           </div>
-          <div class="ourBlog__card">
-            <img src="../img/our-blog-cards/Image5.png" alt="" />
+          <div class="ourBlog__card hidden">
+            <img src="../img/our-blog-cards/Image5.png" alt="Image5.png" />
             <p><span class="blog__date">29 Березня 2022</span></p>
             <h3>Officiis et dolores vero. Accusamus possimus alias.</h3>
             <p>
@@ -467,8 +455,8 @@
               жінок і чоловіків, надання гуманітарної допомоги.
             </p>
           </div>
-          <div class="ourBlog__card">
-            <img src="../img/our-blog-cards/Image6.png" alt="" />
+          <div class="ourBlog__card hidden">
+            <img src="../img/our-blog-cards/Image6.png" alt="Image6.png" />
             <p><span class="blog__date">29 Березня 2022</span></p>
             <h3>Officiis et dolores vero. Accusamus possimus alias.</h3>
             <p>
@@ -479,7 +467,7 @@
           </div>
         </div>
         <div class="ourBlog__button-container">
-          <button class="ourBlog__button">
+          <button class="ourBlog__button" type="button">
             <img
               src="../img/our-blog-cards/arrow-left.svg"
               alt="arrow-bottom"
@@ -626,5 +614,6 @@
       </footer>
     </div>
     <script src="../scripts/nav_script.js"></script>
+    <script src="../scripts/blog_hide_content_script.js"></script>
   </body>
 </html>
