@@ -1680,6 +1680,7 @@ a {
 
   .nav__menu {
     transition: all 0.3s ease 0s;
+    overflow: auto;
   }
 
   .nav__burger {
@@ -1829,3 +1830,4 @@ a {
     bottom: 9px;
   }
 }
+/* =============== header-title ================== */
