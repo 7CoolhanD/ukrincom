@@ -390,11 +390,13 @@ a {
 }
 
 /* =============== ourProjects ================== */
-
+.ourProjects__wrapper {
+  position: relative;
+}
 .ourProjects {
   position: absolute;
   width: 95.83%;
-  top: 5060px;
+  top: -180px;
   left: 2%;
   background: #e3f2fe;
   border-radius: 80px;
@@ -885,7 +887,7 @@ a {
   /* =============== ourProjects ================== */
   .ourProjects {
     padding: 140px 7% 184px;
-    top: 4340px;
+    top: -170px;
   }
 
   /* =============== howYouCanHelp ================== */
@@ -1055,7 +1057,7 @@ a {
   /* =============== ourProjects ================== */
   .ourProjects {
     padding: 86px 5% 142px;
-    top: 4192px;
+    top: -140px;
   }
   .ourProjects__card > img {
     width: 100%;
@@ -1210,7 +1212,7 @@ a {
   /* =============== ourProjects ================== */
   .ourProjects {
     padding: 60px 5% 80px;
-    top: 3780px;
+    top: -140px;
   }
 
   .ourProjects__title {
@@ -1497,7 +1499,7 @@ a {
   /* =============== ourProjects ================== */
   .ourProjects {
     padding: 60px 5% 80px;
-    top: 3150px;
+    top: -140px;
   }
 
   .ourProjects__title {
@@ -1878,7 +1880,7 @@ a {
   }
   /* =============== ourProjects ================== */
   .ourProjects {
-    top: 4628px;
+    top: -140px;
     border-radius: 40px;
     padding: 80px 2% 72px;
   }

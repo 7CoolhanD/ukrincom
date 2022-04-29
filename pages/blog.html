@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <link rel="stylesheet" href="../styles/css/modern-normalize.css" />
     <link rel="stylesheet" href="../styles/css/blog.css" />
     <title>blog</title>
@@ -16,36 +19,39 @@
           src="../img/icons_SVG/Ukrincom_logo_OK 1.svg"
           alt="main logo"
         />
-        <ul class="nav__links">
-          <li>
-            <a href="./index.html">Головна</a>
-          </li>
-          <li>
-            <a href="./results.html">Результати</a>
-          </li>
-          <li>
-            <a href="./projects.html">Проєкти</a>
-          </li>
-          <li>
-            <a href="#">Корисна інформація</a>
-          </li>
-          <li>
-            <a href="./blog.html"><span class="active">Блог</span></a>
-          </li>
-          <li>
-            <a href="./contacts.html">Контакти</a>
-          </li>
-        </ul>
-        <div class="nav__bottons">
-          <button class="nav_button_btc">
-            Підтримати
-            <img src="../img/icons_SVG/bitcoin-(btc).svg" alt="btc" />
-          </button>
-          <button class="nav_button_dollar">
-            Підтримати
-            <img src="../img/icons_SVG/dollar-circle.svg" alt="dollar" />
-          </button>
+        <div class="nav__menu">
+          <ul class="nav__links">
+            <li>
+              <a href="./index.html">Головна</a>
+            </li>
+            <li>
+              <a href="./results.html">Результати</a>
+            </li>
+            <li>
+              <a href="./projects.html">Проєкти</a>
+            </li>
+            <li>
+              <a href="#">Корисна інформація</a>
+            </li>
+            <li>
+              <a href="./blog.html"><span class="active">Блог</span></a>
+            </li>
+            <li>
+              <a href="./contacts.html">Контакти</a>
+            </li>
+          </ul>
+          <div class="nav__buttons">
+            <button class="nav_button_btc">
+              Підтримати
+              <img src="../img/icons_SVG/bitcoin-(btc).svg" alt="btc" />
+            </button>
+            <button class="nav_button_dollar">
+              Підтримати
+              <img src="../img/icons_SVG/dollar-circle.svg" alt="dollar" />
+            </button>
+          </div>
         </div>
+        <div class="nav__burger"><span></span></div>
       </nav>
       <section class="ourBlog">
         <h2 class="ourBlog__title">Результати нашої роботи</h2>
@@ -318,5 +324,6 @@
         </div>
       </footer>
     </div>
+    <script src="../scripts/nav_script.js"></script>
   </body>
 </html>

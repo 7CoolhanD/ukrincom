@@ -419,7 +419,7 @@ a {
   }
   /* =============== ourProjects ================== */
   .ourProjects {
-    padding: 140px 7% 184px;
+    padding: 140px 7% 280px;
     top: 4340px;
   }
 
@@ -461,7 +461,7 @@ a {
   }
   /* =============== ourProjects ================== */
   .ourProjects {
-    padding: 86px 5% 142px;
+    padding: 128px 5% 280px;
     top: 4192px;
   }
   .ourProjects__card > img {
@@ -508,7 +508,7 @@ a {
   }
   /* =============== ourProjects ================== */
   .ourProjects {
-    padding: 60px 5% 80px;
+    padding: 124px 5% 180px;
     top: 3780px;
   }
 
@@ -624,8 +624,7 @@ a {
   }
   /* =============== ourProjects ================== */
   .ourProjects {
-    padding: 60px 5% 80px;
-    top: 3150px;
+    padding: 80px 5% 124px;
   }
 
   .ourProjects__title {
@@ -855,7 +854,7 @@ a {
   .ourProjects {
     top: 4628px;
     border-radius: 40px;
-    padding: 80px 2% 72px;
+    padding: 80px 2% 110px;
   }
   .ourProjects__title {
     font-size: 2.5rem;
