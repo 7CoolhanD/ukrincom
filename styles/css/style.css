@@ -360,10 +360,6 @@ a {
   margin: 0 0 80px 0;
   font-size: 6.5rem;
 }
-
-.hatWeDoing__card-container {
-}
-
 .whatWeDoing__card {
   display: flex;
 }
@@ -903,29 +899,28 @@ a {
   .bgColorYellow {
     width: 94.83%;
   }
-}
+  /* =============== ourBlog ================== */
 
-/* =============== ourBlog ================== */
+  .ourBlog {
+    margin-top: 428px;
+    padding: 265px 8% 340px;
+  }
 
-.ourBlog {
-  margin-top: 428px;
-  padding: 265px 8% 340px;
-}
+  /* =============== contacts ================== */
 
-/* =============== contacts ================== */
+  .contacts {
+    bottom: 624px;
+    left: 2%;
+    background: #e3f2fe;
+    border-radius: 80px;
+    padding: 140px 10%;
+  }
 
-.contacts {
-  bottom: 624px;
-  left: 2%;
-  background: #e3f2fe;
-  border-radius: 80px;
-  padding: 140px 10%;
-}
+  /* =============== fotter ================== */
 
-/* =============== fotter ================== */
-
-.footer {
-  padding: 924px 8% 80px;
+  .footer {
+    padding: 924px 8% 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -1794,202 +1789,212 @@ a {
     transform: rotate(-45deg);
     bottom: 9px;
   }
-}
-/* =============== header-title ================== */
-.header {
-  justify-content: center;
-  align-items: flex-start;
-  border-radius: 0 0 5rem 5rem;
-  padding: 80px 2%;
-  height: auto;
-  border-radius: 0px 0px 40px 40px;
-}
-.header__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.header__container > button {
-  width: 100%;
-  height: 64px;
-  margin-bottom: 16px;
-  font-size: 1rem;
-}
+  /* =============== header-title ================== */
+  .header {
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0 0 5rem 5rem;
+    padding: 80px 2%;
+    height: auto;
+    border-radius: 0px 0px 40px 40px;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__container > button {
+    width: 100%;
+    height: 64px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
 
-.header__title {
-  font-size: 2.5rem;
-  line-height: 3rem;
-}
+  .header__title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 
-.header__sub-title {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding: 0 2%;
-  margin: 0 0 48px 0;
-}
-/* =============== partners ================== */
-.main {
-  padding: 732px 2% 0;
-}
-.partners {
-  margin-bottom: 110px;
-}
-/* =============== whyVolunteer ================== */
-.whyVolunteer__section {
-  flex-direction: column;
-  padding: 0;
-  margin-bottom: 80px;
-}
-.volunteer__img {
-  width: 100%;
-}
-.whyVolunteer__title {
-  font-size: 2rem;
-  line-height: 2.5rem;
-}
-.whyVolunteer__sub-title {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-/* =============== whatWeDoing ================== */
-.whatWeDoing {
-  padding: 80px 2% 160px;
-  flex-direction: column;
-}
-.whatWeDoing__card {
-  flex-direction: column;
-}
-.whatWeDoing__mainTitle {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
-}
-.whatWeDoingCard__title-number {
-  font-size: 3.5rem;
-  line-height: 3rem;
-}
-.whatWeDoingCard__title {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  padding: 0;
-}
-.whatWeDoingCard__sub-title {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  padding: 0;
-}
-.whatWeDoingCard__img {
-  width: 100%;
-}
-/* =============== ourProjects ================== */
-.ourProjects {
-  top: 4628px;
-  border-radius: 40px;
-  padding: 80px 2% 72px;
-}
-.ourProjects__title {
-  font-size: 2.5rem;
-  line-height: 2.75rem;
-}
-.ourProjectsCard__container {
-  display: flex;
-  flex-direction: column;
-}
-.ourProjects__card > img {
-  width: 100%;
-}
-.ourProjects__card-title {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.ourProject__card-subTitle {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.ourProjects__card > button {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  width: 100%;
-  margin-bottom: 16px;
-}
+  .header__sub-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0 2%;
+    margin: 0 0 48px 0;
+  }
+  /* =============== partners ================== */
+  .main {
+    padding: 732px 2% 0;
+  }
+  .partners {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 110px;
+  }
+  /* =============== whyVolunteer ================== */
+  .whyVolunteer__section {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  .volunteer__img {
+    width: 100%;
+  }
+  .whyVolunteer__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .whyVolunteer__sub-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  /* =============== whatWeDoing ================== */
+  .whatWeDoing {
+    padding: 80px 2% 160px;
+    flex-direction: column;
+  }
+  .whatWeDoing__card {
+    flex-direction: column;
+  }
+  .whatWeDoing__mainTitle {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .whatWeDoingCard__title-number {
+    font-size: 3.5rem;
+    line-height: 3rem;
+  }
+  .whatWeDoingCard__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 0;
+  }
+  .whatWeDoingCard__sub-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0;
+  }
+  .whatWeDoingCard__img {
+    width: 100%;
+  }
+  /* =============== ourProjects ================== */
+  .ourProjects {
+    top: 4628px;
+    border-radius: 40px;
+    padding: 80px 2% 72px;
+  }
+  .ourProjects__title {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+  .ourProjectsCard__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ourProjects__card > img {
+    width: 100%;
+  }
+  .ourProjects__card-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .ourProject__card-subTitle {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .ourProjects__card > button {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+    margin-bottom: 16px;
+  }
 
-/* =============== howYouCanHelp ================== */
-.howYouCanHelp {
-  padding: 2777px 2% 0;
-}
-.howYouCanHelp__main-title {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
-  margin-bottom: 48px;
-}
-.howYouCanHelp__card {
-  padding: 40px 12px;
-  border-radius: 40px;
-}
-.howYouCanHelp__card > h3 {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  margin: 0;
-}
-.howYouCanHelp__card > p {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-.howYouCanHelp__card > button {
-  width: 100%;
-  height: 64px;
-  font-size: 1.25rem;
-  line-height: 2rem;
-}
-.bgColorYellow > button.nav_button_btc {
-  margin-bottom: 16px;
-}
-/* =============== ourBlog ================== */
-.ourBlog {
-  padding: 180px 2% 340px;
-}
-.ourBlog__title {
-  font-size: 2.5rem;
-}
-.ourBlogCard__container {
-  display: flex;
-  flex-direction: column;
-}
-.ourBlog__card > img {
-  width: 100%;
-}
-.blog__date {
-  font-size: 0.75rem;
-  line-height: 1.25rem;
-}
-.ourBlog__card > h3 {
-  font-size: 1.25rem;
-  line-height: 2rem;
-}
-.ourBlog__card > p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.hidden {
-  display: none;
-}
+  /* =============== howYouCanHelp ================== */
+  .howYouCanHelp {
+    padding: 2777px 2% 0;
+  }
+  .howYouCanHelp__main-title {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 48px;
+  }
+  .howYouCanHelp__card {
+    padding: 40px 12px;
+    border-radius: 40px;
+  }
+  .howYouCanHelp__card > h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0;
+  }
+  .howYouCanHelp__card > p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .howYouCanHelp__card > button {
+    width: 100%;
+    height: 64px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+  .bgColorYellow > button.nav_button_btc {
+    margin-bottom: 16px;
+  }
+  /* =============== ourBlog ================== */
+  .ourBlog {
+    padding: 180px 2% 340px;
+  }
+  .ourBlog__title {
+    font-size: 2.5rem;
+  }
+  .ourBlogCard__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ourBlog__card > img {
+    width: 100%;
+  }
+  .blog__date {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+  .ourBlog__card > h3 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+  .ourBlog__card > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .hidden {
+    display: none;
+  }
 
-/* =============== contacts ================== */
-.contacts {
-  padding: 80px 2%;
-
-  height: auto;
-  border-radius: 40px;
-}
-.contact__title {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
-  margin-bottom: 48px;
-}
-.contacts__container {
-  flex-direction: column;
-}
-.contacts__container > div > h3 {
-  padding: 0;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  /* =============== contacts ================== */
+  .contacts {
+    padding: 80px 2%;
+    bottom: 1200px;
+    height: auto;
+    border-radius: 40px;
+  }
+  .contact__title {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 48px;
+  }
+  .contacts__container {
+    flex-direction: column;
+  }
+  .contacts__container > div > h3 {
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .socialNetworks > a {
+    margin-left: 20%;
+  }
+  /* =============== fotter ================== */
+  .footer {
+    padding: 1100px 2% 80px;
+    flex-direction: column;
+  }
 }
