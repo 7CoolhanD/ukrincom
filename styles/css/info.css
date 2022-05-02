@@ -32,6 +32,7 @@
   color: #071232;
   position: relative;
 }
+
 /* =============== navigation ================== */
 .nav__burger {
   display: none;
@@ -49,6 +50,7 @@
   background-color: #ffffff;
   border: 1px solid #e6ebf4;
   padding: 0.5% 0.5% 0.5% 1.5%;
+  z-index: 2;
 }
 .nav__menu {
   display: flex;
@@ -139,81 +141,17 @@ a {
   color: #60677a;
 }
 
-/* =============== results ================== */
-
-.results {
-  padding: 160px 360px 360px;
-}
-
-.results__title {
-  font-family: Montserrat-SemiBold;
-  text-align: center;
-  font-size: 4.5rem;
-  margin: 0 0 80px;
-}
-.resultsCard__container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 24px;
-  grid-row-gap: 40px;
-  margin-bottom: 32px;
-}
-
-.results__card > h3 {
-  font-family: Montserrat-SemiBold;
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.results__card > p {
-  font-family: Montserrat-Regular;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.results__date {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.results__button {
-  text-align: center;
-  width: 340px;
-  height: 56px;
-  color: #ffffff;
-  background: #0082d1;
-  border-radius: 40px;
-  border: none;
-  font-family: Montserrat-SemiBold;
-  font-size: 1.25rem;
-  margin: 0 auto;
-}
-
-.results__button-container {
-  display: flex;
-  justify-content: center;
-}
-
-.results__button:hover {
-  background-color: #5fb7fe;
-}
-
-.results__button:focus {
-  background: #e6ebf4;
-  color: #60677a;
-}
-
 /* =============== contacts ================== */
 
 .contacts {
   position: absolute;
   width: 95.83%;
-  bottom: 624px;
+  height: min-content;
+  top: -68px;
   left: 2%;
   background: #e3f2fe;
   border-radius: 80px;
-  padding: 160px 15%;
+  padding: 260px 15% 160px;
 }
 
 .contact__title {
@@ -223,107 +161,44 @@ a {
   margin: 0 0 80px;
 }
 
-.contacts__container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contacts__container > div > h3 {
+.info__sub-title {
   font-family: Montserrat-SemiBold;
-  font-size: 32px;
-  line-height: 48px;
-  padding-right: 236px;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.telegram__img::before {
+  content: url(../../img/Info_icons_svg/telegram.svg);
+}
+.phone__img::before {
+  content: url(../../img/Info_icons_svg/call.svg);
+}
+.web__img::before {
+  content: url(../../img/Info_icons_svg/world.svg);
+}
+.info__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 36px;
+  grid-row-gap: 16px;
 }
 
-.socialNetworks {
-  display: flex;
-  flex-direction: column;
-}
-
-.socialNetworks > img {
-  margin-right: 16px;
-}
-
-.socialNetworks > a {
-  margin-bottom: 28px;
-  position: relative;
-}
-
-.socialNetworks > a > img {
-  margin-right: 26px;
-  position: absolute;
-  top: -10px;
-  left: -50px;
-}
-
-.socialNetwork__link {
+.info__link-container > a {
   font-family: Montserrat-Regular;
-  font-size: 20px;
-  color: #071232;
-  padding-bottom: 40px;
-}
-
-.input__container {
-  display: flex;
-  flex-direction: column;
-}
-
-.input__container > label {
-  padding-left: 5%;
-  margin-bottom: 18px;
-  font-family: Montserrat-Regular;
-  font-size: 14px;
-  color: #60677a;
-}
-
-.inputYourData {
-  background: #f6f9ff;
-  border: 1px solid #e6ebf4;
-  border-radius: 32px;
-  padding: 14px 24px;
-  margin-bottom: 24px;
-  font-family: Montserrat-Regular;
-  font-size: 20px;
-  color: #071232;
-  resize: none;
-  outline: none;
-}
-
-.inputYourData:focus {
-  border: 1px solid #0099fe;
-}
-
-.input__sendButton {
-  text-align: center;
-  width: 60%;
-  height: 56px;
-  color: #ffffff;
-  background: #0082d1;
-  border-radius: 40px;
-  border: none;
-  font-family: Montserrat-SemiBold;
   font-size: 1.25rem;
-  margin: 0 auto;
-  position: relative;
+  line-height: 1.75rem;
+  color: #071232;
 }
-
-.input__sendButton:hover {
-  background-color: #5fb7fe;
-}
-
-.input__sendButton:focus {
-  background: #e6ebf4;
-  color: #60677a;
-}
-
-.input__sendButton > img {
-  position: absolute;
+.info__link-container > P {
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /* =============== fotter ================== */
 
 .footer {
-  padding: 924px 15% 80px;
+  padding: 1212px 15% 80px;
   display: flex;
   justify-content: space-around;
 }
@@ -346,7 +221,6 @@ a {
 .footer__column > p > a:hover {
   color: #0099fe;
 }
-
 @media screen and (min-width: 1641px) and (max-width: 1919px) {
   /* =============== navigation ================== */
   .nav {
@@ -401,11 +275,6 @@ a {
     font-size: 1rem;
   }
 
-  /* =============== results ================== */
-
-  .results {
-    padding: 140px 8% 340px;
-  }
   /* =============== contacts ================== */
 
   .contacts {
@@ -413,11 +282,11 @@ a {
     left: 2%;
     background: #e3f2fe;
     border-radius: 80px;
-    padding: 140px 10%;
+    padding: 240px 10%;
   }
   /* =============== fotter ================== */
   .footer {
-    padding: 924px 8% 80px;
+    padding: 1200px 8% 80px;
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -442,9 +311,9 @@ a {
     font-size: 0.9rem;
     padding: 10px 24px 10px 12px;
   }
-  /* =============== results ================== */
-  .results {
-    padding: 160px 8% 340px;
+  /* =============== fotter ================== */
+  .footer {
+    padding: 1200px 4% 80px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -472,43 +341,12 @@ a {
     font-size: 0.8rem;
     padding: 8px 24px 8px 8px;
   }
-
-  /* =============== results ================== */
-  .results {
-    padding: 160px 6% 240px;
-  }
-  .results__card > img {
-    width: 100%;
-  }
-  .results__title {
-    font-size: 3.5rem;
-  }
-  .results__card > h3 {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-
-  .results__card > p {
-    font-size: 0.8rem;
-    line-height: 1rem;
-  }
-
-  .results__date {
-    font-size: 0.5rem;
-    line-height: 0;
-  }
-
-  .results__button {
-    width: 260px;
-    height: 46px;
-    font-size: 1rem;
-    line-height: 1.8rem;
-  }
   /* =============== contacts ================== */
   .contacts {
     bottom: 480px;
     left: 2%;
-    padding: 90px 8%;
+    padding: 220px 8%;
+    height: 940px;
   }
   .contact__title {
     font-size: 3.5rem;
@@ -542,7 +380,7 @@ a {
   }
   /* =============== fotter ================== */
   .footer {
-    padding: 628px 4% 80px;
+    padding: 940px 4% 80px;
   }
   .footer__column > h3 {
     font-size: 1.5rem;
@@ -585,44 +423,12 @@ a {
     width: 14%;
     top: 10px;
   }
-
-  /* =============== results ================== */
-  .results {
-    padding: 160px 6% 160px;
-  }
-  .results__card > img {
-    width: 100%;
-  }
-  .results__title {
-    font-size: 3.5rem;
-  }
-  .results__card > h3 {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-
-  .results__card > p {
-    font-size: 0.8rem;
-    line-height: 1rem;
-  }
-
-  .results__date {
-    font-size: 0.5rem;
-    line-height: 0;
-  }
-
-  .results__button {
-    width: 260px;
-    height: 46px;
-    font-size: 1rem;
-    line-height: 1.8rem;
-  }
-
   /* =============== contacts ================== */
   .contacts {
     bottom: 500px;
     left: 2%;
-    padding: 60px 8%;
+    padding: 180px 7% 140px;
+    height: max-content;
   }
   .contact__title {
     font-size: 3rem;
@@ -658,7 +464,7 @@ a {
   }
   /* =============== fotter ================== */
   .footer {
-    padding: 628px 4% 80px;
+    padding: 840px 4% 80px;
   }
   .footer__column > h3 {
     font-size: 1.25rem;
@@ -671,6 +477,10 @@ a {
   }
   .footer__column > p {
     margin-bottom: 10px;
+  }
+  .socialNetworks > a > img {
+    top: -10px;
+    left: -42px;
   }
 }
 @media (max-width: 810px) {
@@ -808,41 +618,11 @@ a {
     transform: rotate(-45deg);
     bottom: 9px;
   }
-
-  /* =============== results ================== */
-  .results {
-    padding: 180px 2% 340px;
-  }
-  .results__title {
-    font-size: 2.5rem;
-  }
-  .resultsCard__container {
-    display: flex;
-    flex-direction: column;
-  }
-  .results__card > img {
-    width: 100%;
-  }
-  .results__date {
-    font-size: 0.75rem;
-    line-height: 1.25rem;
-  }
-  .results__card > h3 {
-    font-size: 1.25rem;
-    line-height: 2rem;
-  }
-  .results__card > p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-  .hidden {
-    display: none;
-  }
   /* =============== contacts ================== */
   .contacts {
-    padding: 80px 2%;
+    padding: 180px 2% 120px;
     bottom: 1200px;
-    height: auto;
+    height: fit-content;
     border-radius: 40px;
   }
   .contact__title {
@@ -863,7 +643,7 @@ a {
   }
   /* =============== fotter ================== */
   .footer {
-    padding: 1100px 2% 80px;
+    padding: 1400px 2% 80px;
     flex-direction: column;
   }
 }

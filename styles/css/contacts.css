@@ -683,9 +683,9 @@ a {
   }
   /* =============== contacts ================== */
   .contacts {
-    padding: 80px 2%;
+    padding: 180px 2% 120px;
     bottom: 1200px;
-    height: auto;
+    height: fit-content;
     border-radius: 40px;
   }
   .contact__title {
@@ -706,7 +706,7 @@ a {
   }
   /* =============== fotter ================== */
   .footer {
-    padding: 1100px 2% 80px;
+    padding: 1400px 2% 80px;
     flex-direction: column;
   }
 }
