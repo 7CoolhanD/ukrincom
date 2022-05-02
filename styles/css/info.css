@@ -141,9 +141,9 @@ a {
   color: #60677a;
 }
 
-/* =============== contacts ================== */
+/* =============== Info ================== */
 
-.contacts {
+.info {
   position: absolute;
   width: 95.83%;
   height: min-content;
@@ -154,7 +154,7 @@ a {
   padding: 260px 15% 160px;
 }
 
-.contact__title {
+.info__title {
   font-family: Montserrat-SemiBold;
   text-align: center;
   font-size: 4.5rem;
@@ -175,24 +175,59 @@ a {
 .web__img::before {
   content: url(../../img/Info_icons_svg/world.svg);
 }
+
+.telegram__img::before,
+.phone__img::before,
+.web__img::before {
+  margin-right: 12px;
+  position: absolute;
+  left: -50px;
+}
+
+/* .telegram__img:after,
+.phone__img:after,
+.web__img:after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: #707d93;
+  position: absolute;
+  right: 0;
+} */
+
 .info__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 36px;
-  grid-row-gap: 16px;
+  grid-column-gap: 5%;
+  grid-row-gap: 26px;
+}
+.info__link-container {
+  position: relative;
+}
+.info__link-container::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: #b5bccf;
+  right: -10px;
+  top: 0;
+  position: absolute;
 }
 
 .info__link-container > a {
   font-family: Montserrat-Regular;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.75rem;
   color: #071232;
+  position: relative;
 }
 .info__link-container > P {
   font-family: Montserrat-Regular;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5rem;
+  margin: 0;
+  color: #707d93;
 }
 
 /* =============== fotter ================== */
