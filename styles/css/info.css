@@ -184,23 +184,13 @@ a {
   left: -50px;
 }
 
-/* .telegram__img:after,
-.phone__img:after,
-.web__img:after {
-  content: "";
-  width: 1px;
-  height: 40px;
-  background-color: #707d93;
-  position: absolute;
-  right: 0;
-} */
-
 .info__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 5%;
   grid-row-gap: 26px;
+  margin: 0 0 56px 0;
 }
 .info__link-container {
   position: relative;
@@ -210,7 +200,7 @@ a {
   width: 1px;
   height: 40px;
   background-color: #b5bccf;
-  right: -10px;
+  right: 0;
   top: 0;
   position: absolute;
 }
@@ -221,12 +211,14 @@ a {
   line-height: 1.75rem;
   color: #071232;
   position: relative;
+  padding-right: 5%;
 }
 .info__link-container > P {
   font-family: Montserrat-Regular;
   font-size: 16px;
   line-height: 1.5rem;
   margin: 0;
+  padding-right: 15%;
   color: #707d93;
 }
 
