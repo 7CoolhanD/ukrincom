@@ -48,6 +48,10 @@
   align-items: center;
   background: #e3f2fe;
   border-radius: 0 0 5rem 5rem;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.5);
 }
 
 /* =============== navigation ================== */
@@ -66,6 +70,10 @@
   background-color: #ffffff;
   border: 1px solid #e6ebf4;
   padding: 0.6% 0.5% 0.5% 1.5%;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.2);
 }
 .nav__menu {
   display: flex;
@@ -100,6 +108,8 @@
 
 .nav__links > li > a:hover {
   color: #0082d1;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 a {
@@ -115,6 +125,10 @@ a {
   line-height: 1.5rem;
   padding: 14px 38px 14px 24px;
   cursor: pointer;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.1);
 }
 
 .nav_button_btc {
@@ -137,6 +151,8 @@ a {
 
 .nav_button_btc:hover {
   background-color: #fde08c;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .nav_button_btc:focus {
@@ -151,6 +167,8 @@ a {
 
 .nav_button_dollar:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .nav_button_dollar:focus {
@@ -187,6 +205,10 @@ a {
   line-height: 2rem;
   cursor: pointer;
   position: relative;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.5);
 }
 
 .header__container > button > img {
@@ -201,6 +223,8 @@ a {
 
 .header__button-volunteer:hover {
   background-color: #fde08c;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .header__button-volunteer:focus {
@@ -215,6 +239,8 @@ a {
 
 .header__button-findVolunteer:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .header__button-findVolunteer:focus {
@@ -231,7 +257,6 @@ a {
   width: 200px;
   left: 10%;
   top: 120px;
-  transition: all 0.2s ease 0s;
 }
 
 .ellipse-2 {
@@ -239,7 +264,6 @@ a {
   width: 188px;
   left: 15%;
   top: 581px;
-  transition: all 0.2s ease 0s;
 }
 
 .ellipse-3 {
@@ -247,7 +271,6 @@ a {
   width: 98px;
   left: 5%;
   top: 407px;
-  transition: all 0.2s ease 0s;
 }
 
 .ellipse-4 {
@@ -255,7 +278,6 @@ a {
   width: 260px;
   right: 7%;
   top: 536px;
-  transition: all 0.2s ease 0s;
 }
 
 .ellipse-5 {
@@ -263,7 +285,18 @@ a {
   width: 142px;
   right: 5%;
   top: 149px;
-  transition: all 0.2s ease 0s;
+}
+
+.ellipse-1,
+.ellipse-2,
+.ellipse-3,
+.ellipse-4,
+.ellipse-5 {
+  border-radius: 50%;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.5);
 }
 
 /* =============== modal ================== */
@@ -345,6 +378,11 @@ a {
 
 .volunteer__img {
   margin-right: 5%;
+  border-radius: 80px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.5);
 }
 
 .whyVolunteer__title {
@@ -400,6 +438,11 @@ a {
 
 .whatWeDoingCard__img {
   margin: 0 0 80px 0;
+  border-radius: 80px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.3),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
 }
 
 /* =============== ourProjects ================== */
@@ -414,6 +457,10 @@ a {
   background: #e3f2fe;
   border-radius: 80px;
   padding: 160px 17% 184px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.3),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .ourProjects__title {
@@ -459,6 +506,7 @@ a {
 
 .ourProject__button_volunteer:hover {
   background-color: #fde08c;
+  transition: all 0.3s ease 0s;
 }
 
 .ourProject__button_volunteer:focus {
@@ -480,11 +528,32 @@ a {
 
 .ourProject__button_partner:hover {
   background-color: #5fb7fe;
+  transition: all 0.3s ease 0s;
 }
 
 .ourProject__button_partner:focus {
   background: #e6ebf4;
   color: #60677a;
+}
+.ourProjects__card {
+  padding: 1%;
+  border-radius: 40px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.3);
+}
+.ourProjects__card:hover {
+  cursor: pointer;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.4),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  transition: all 0.3s ease 0s;
+}
+.ourProjects__card > button {
+  display: none;
 }
 
 /* =============== howYouCanHelp ================== */
@@ -503,11 +572,12 @@ a {
 .howYouCanHelp__card {
   padding: 104px 25%;
   text-align: center;
-}
-
-.howYouCanHelp__card {
   border-radius: 40px;
   margin-bottom: 40px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .howYouCanHelp__card > h3 {
@@ -531,6 +601,15 @@ a {
   font-size: 1.5rem;
   line-height: 2rem;
   cursor: pointer;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
+}
+
+.howYouCanHelp__card > button > img {
+  top: 28px;
+  left: 74%;
 }
 
 .bgColorGreen {
@@ -599,6 +678,10 @@ a {
   font-family: Montserrat-SemiBold;
   font-size: 1.25rem;
   margin: 0 auto;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .ourBlog__button-container {
@@ -608,6 +691,8 @@ a {
 
 .ourBlog__button:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .ourBlog__button:focus {
@@ -624,6 +709,10 @@ a {
   background: #e3f2fe;
   border-radius: 80px;
   padding: 160px 15%;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .contact__title {
@@ -697,10 +786,16 @@ a {
   color: #071232;
   resize: none;
   outline: none;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .inputYourData:focus {
   border: 1px solid #0099fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .input__sendButton {
@@ -715,10 +810,16 @@ a {
   font-size: 1.25rem;
   margin: 0 auto;
   position: relative;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .input__sendButton:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .input__sendButton:focus {
@@ -904,8 +1005,11 @@ a {
 
   /* =============== ourProjects ================== */
   .ourProjects {
-    padding: 140px 7% 184px;
+    padding: 140px 6% 184px;
     top: -170px;
+  }
+  .ourProjects__card {
+    padding: 2%;
   }
 
   /* =============== howYouCanHelp ================== */
@@ -1078,6 +1182,9 @@ a {
     padding: 86px 5% 142px;
     top: -140px;
   }
+  .ourProjects__card {
+    padding: 2%;
+  }
   .ourProjects__card > img {
     width: 100%;
   }
@@ -1093,6 +1200,23 @@ a {
     height: 52px;
     padding: 14px 24px 14px 16px;
     font-size: 1rem;
+  }
+  /* =============== howYouCanHelp ================== */
+  .howYouCanHelp {
+    padding: 1820px 40px 0;
+  }
+
+  .howYouCanHelp__card {
+    padding: 104px 10%;
+  }
+  .bgColorYellow {
+    width: 94.83%;
+  }
+  /* =============== ourBlog ================== */
+
+  .ourBlog {
+    margin-top: 428px;
+    padding: 265px 8% 340px;
   }
 }
 
@@ -1241,6 +1365,9 @@ a {
   .ourProjects__title {
     font-size: 3.5rem;
   }
+  .ourProjects__card {
+    padding: 2%;
+  }
   .ourProjects__card > img {
     width: 100%;
   }
@@ -1290,7 +1417,11 @@ a {
     font-size: 0.9rem;
   }
   .bgColorYellow {
-    width: 92%;
+    width: 93%;
+  }
+  .bgColorYellow > button > img {
+    top: 15px;
+    left: 68%;
   }
   /* =============== ourBlog ================== */
   .ourBlog {
@@ -1479,6 +1610,8 @@ a {
 
   .volunteer__img {
     margin-right: 4%;
+    width: 100%;
+    border-radius: 46px;
   }
 
   .whyVolunteer__title {
@@ -1529,6 +1662,9 @@ a {
   .ourProjects__title {
     font-size: 2.5rem;
     margin-bottom: 60px;
+  }
+  .ourProjects__card {
+    padding: 2%;
   }
   .ourProjects__card > img {
     width: 100%;
@@ -1584,6 +1720,10 @@ a {
   }
   .bgColorYellow {
     width: 92%;
+  }
+  .bgColorYellow > button > img {
+    top: 15px;
+    left: 70%;
   }
   /* =============== ourBlog ================== */
   .ourBlog {
@@ -1802,6 +1942,7 @@ a {
     height: 42px;
     font-size: 0.8rem;
     padding: 8px 24px 8px 8px;
+    margin-bottom: 10px;
   }
 
   .nav__burger.is-active:before {
@@ -1830,7 +1971,7 @@ a {
     align-items: center;
   }
   .header__container > button {
-    width: 100%;
+    width: 80%;
     height: 64px;
     margin-bottom: 16px;
     font-size: 1rem;
@@ -1864,6 +2005,8 @@ a {
   }
   .volunteer__img {
     width: 100%;
+    border-radius: 52px;
+    border-radius: 15%;
   }
   .whyVolunteer__title {
     font-size: 2rem;
@@ -1901,6 +2044,7 @@ a {
   }
   .whatWeDoingCard__img {
     width: 100%;
+    border-radius: 15%;
   }
   /* =============== ourProjects ================== */
   .ourProjects {
@@ -1915,6 +2059,10 @@ a {
   .ourProjectsCard__container {
     display: flex;
     flex-direction: column;
+  }
+  .ourProjects__card {
+    margin-bottom: 20px;
+    border-radius: 8%;
   }
   .ourProjects__card > img {
     width: 100%;
@@ -1936,7 +2084,7 @@ a {
 
   /* =============== howYouCanHelp ================== */
   .howYouCanHelp {
-    padding: 2777px 2% 0;
+    padding: 2258px 2% 0;
   }
   .howYouCanHelp__main-title {
     font-size: 2.5rem;
@@ -1957,13 +2105,17 @@ a {
     line-height: 1.75rem;
   }
   .howYouCanHelp__card > button {
-    width: 100%;
+    width: 50%;
     height: 64px;
     font-size: 1.25rem;
     line-height: 2rem;
   }
   .bgColorYellow > button.nav_button_btc {
     margin-bottom: 16px;
+  }
+  .bgColorYellow > button > img {
+    top: 20px;
+    left: 70%;
   }
   /* =============== ourBlog ================== */
   .ourBlog {
@@ -2022,5 +2174,11 @@ a {
   .footer {
     padding: 1100px 2% 80px;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 510px) and (max-width: 650px) {
+  .howYouCanHelp {
+    padding: 2658px 2% 0;
   }
 }
