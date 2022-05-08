@@ -536,7 +536,7 @@ a {
   color: #60677a;
 }
 .ourProjects__card {
-  padding: 1%;
+  padding: 20px;
   border-radius: 40px;
   box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
     15px 15px 15px rgba(0, 0, 0, 0.05),
@@ -596,6 +596,7 @@ a {
   width: 336px;
   height: 80px;
   border: none;
+  margin-right: 10px;
   border-radius: 40px;
   font-family: Montserrat-SemiBold;
   font-size: 1.5rem;
@@ -2084,7 +2085,7 @@ a {
 
   /* =============== howYouCanHelp ================== */
   .howYouCanHelp {
-    padding: 2258px 2% 0;
+    padding: 2400px 2% 0;
   }
   .howYouCanHelp__main-title {
     font-size: 2.5rem;
@@ -2105,7 +2106,7 @@ a {
     line-height: 1.75rem;
   }
   .howYouCanHelp__card > button {
-    width: 50%;
+    width: 80%;
     height: 64px;
     font-size: 1.25rem;
     line-height: 2rem;
@@ -2115,7 +2116,6 @@ a {
   }
   .bgColorYellow > button > img {
     top: 20px;
-    left: 70%;
   }
   /* =============== ourBlog ================== */
   .ourBlog {
