@@ -1916,20 +1916,21 @@ a {
   }
   /* =============== navigation active ================== */
   .nav.is-active {
-    justify-content: center;
+    justify-content: space-between;
     height: 500px;
   }
   .nav__menu.is-active {
     justify-content: center;
     flex-direction: column;
+    flex-grow: 1;
   }
   .nav__links.is-active {
     display: flex;
     flex-direction: column;
-    padding: 50px 0 0 30%;
+    padding: 50px 0 0 40%;
   }
   .nav__buttons.is-active {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 20px;
   }
 
   .nav__buttons.is-active > button > img {
@@ -1944,6 +1945,8 @@ a {
     font-size: 0.8rem;
     padding: 8px 24px 8px 8px;
     margin-bottom: 10px;
+  }
+  .nav__burger.is-active {
   }
 
   .nav__burger.is-active:before {
@@ -2085,7 +2088,7 @@ a {
 
   /* =============== howYouCanHelp ================== */
   .howYouCanHelp {
-    padding: 2400px 2% 0;
+    padding: 2500px 2% 0;
   }
   .howYouCanHelp__main-title {
     font-size: 2.5rem;
