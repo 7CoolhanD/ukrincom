@@ -9,6 +9,10 @@
     />
     <link rel="stylesheet" href="../styles/css/modern-normalize.css" />
     <link rel="stylesheet" href="../styles/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <title>Ukrincom</title>
   </head>
   <body>
@@ -193,13 +197,51 @@
             </div>
           </div>
         </header>
-        <div class="partners">
-          <img src="../img/partner_list/collective.svg" alt="collective" />
-          <img src="../img/partner_list/maintainx.svg" alt="maintainx" />
-          <img src="../img/partner_list/pandaDoc.svg" alt="pandaDoc" />
-          <img src="../img/partner_list/orum.svg" alt="orum" />
-          <img src="../img/partner_list/appsFlyer.svg" alt="appsFlyer" />
-          <img src="../img/partner_list/aptivate.svg" alt="aptivate" />
+        <div class="partners swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="partners__img"
+                src="../img/partner_list/collective.svg"
+                alt="collective"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="partners__img"
+                src="../img/partner_list/maintainx.svg"
+                alt="maintainx"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="partners__img"
+                src="../img/partner_list/pandaDoc.svg"
+                alt="pandaDoc"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="partners__img"
+                src="../img/partner_list/orum.svg"
+                alt="orum"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="partners__img"
+                src="../img/partner_list/appsFlyer.svg"
+                alt="appsFlyer"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="partners__img"
+                src="../img/partner_list/aptivate.svg"
+                alt="aptivate"
+              />
+            </div>
+          </div>
         </div>
         <div class="whyVolunteer__section">
           <img
@@ -615,7 +657,21 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../scripts/nav_script.js"></script>
+    <script src="../scripts/swiper.js"></script>
     <script src="../scripts/blog_hide_content_script.js"></script>
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        watchSlidesProgress: true,
+        slidesPerView: 3,
+        loop: true,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
   </body>
 </html>
