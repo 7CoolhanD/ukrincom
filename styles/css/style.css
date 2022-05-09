@@ -365,7 +365,7 @@ a {
 }
 .partners {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 217px;
 }
 
