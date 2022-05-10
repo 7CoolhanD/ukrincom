@@ -9,10 +9,7 @@
     />
     <link rel="stylesheet" href="../styles/css/modern-normalize.css" />
     <link rel="stylesheet" href="../styles/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="../styles/css/swiper.css" />
     <title>Ukrincom</title>
   </head>
   <body>
@@ -202,42 +199,42 @@
             <div class="swiper-slide">
               <img
                 class="partners__img"
-                src="../img/partner_list/collective.svg"
+                src="../img/partner_list/pandadoc-logo.svg"
                 alt="collective"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="partners__img"
-                src="../img/partner_list/maintainx.svg"
+                src="../img/partner_list/pandadoc-logo.svg"
                 alt="maintainx"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="partners__img"
-                src="../img/partner_list/pandadoc.svg"
+                src="../img/partner_list/pandadoc-logo.svg"
                 alt="pandadoc"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="partners__img"
-                src="../img/partner_list/orum.svg"
+                src="../img/partner_list/pandadoc-logo.svg"
                 alt="orum"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="partners__img"
-                src="../img/partner_list/appsFlyer.svg"
+                src="../img/partner_list/pandadoc-logo.svg"
                 alt="appsFlyer"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="partners__img"
-                src="../img/partner_list/aptivate.svg"
+                src="../img/partner_list/pandadoc-logo.svg"
                 alt="aptivate"
               />
             </div>
@@ -659,9 +656,9 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../scripts/nav_script.js"></script>
-    <script src="../scripts/swiper.js"></script>
+    <script src="../scripts/partners_slider.js"></script>
     <script src="../scripts/blog_hide_content_script.js"></script>
-    <script>
+    <!-- <script>
       const swiper = new Swiper(".mySwiper", {
         watchSlidesProgress: true,
         slidesPerView: 3,
@@ -670,8 +667,25 @@
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            // when window width is >= 480px
+            810: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            // when window width is >= 640px
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+          },
         },
       });
-    </script>
+    </script> -->
   </body>
 </html>
