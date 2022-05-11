@@ -319,7 +319,7 @@ body.show-modal .modal {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 999;
   pointer-events: none;
   opacity: 0;
@@ -336,6 +336,11 @@ body.show-modal .modal {
   top: 50px;
   right: 35px;
   cursor: pointer;
+}
+.close-modal:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease 0s;
+  background-color: #dddddd;
 }
 .close-modal:before {
   content: "";
@@ -360,7 +365,7 @@ body.show-modal .modal {
 .modal {
   width: 100%;
   max-width: 956px;
-  height: 100vh;
+  height: auto;
   border-radius: 80px;
   padding: 3%;
   display: flex;
@@ -1085,8 +1090,11 @@ body.show-modal .modal {
 
   /* =============== ourProjects ================== */
   .ourProjects {
-    padding: 140px 6% 184px;
+    padding: 140px 5% 184px;
     top: -170px;
+  }
+  .ourProjectsCard__container {
+    grid-column-gap: 10px;
   }
   .ourProjects__card {
     padding: 2%;
