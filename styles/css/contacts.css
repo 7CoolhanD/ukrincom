@@ -317,11 +317,15 @@ a {
   /* =============== navigation ================== */
   .nav {
     height: 64px;
+    padding: 0.4% 0.5% 0.5% 1.5%;
   }
 
   .logo {
     max-width: 20%;
     margin: 0 10% 0 0;
+  }
+  .nav__links {
+    margin: 8px 0 0;
   }
 
   .nav__links > li > a {
@@ -342,6 +346,7 @@ a {
   /* =============== navigation ================== */
   .nav {
     height: 62px;
+    padding: 0.5% 0.5% 0.5% 1.5%;
   }
 
   .logo {
@@ -386,10 +391,14 @@ a {
   .nav {
     height: 62px;
     top: 16px;
+    padding: 0.5% 0.5% 0.5% 1.5%;
   }
   .logo {
     max-width: 16%;
     margin-right: 2%;
+  }
+  .nav__links {
+    margin: 10px 0 0;
   }
   .nav__links > li > a {
     font-size: 1rem;

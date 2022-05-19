@@ -806,11 +806,15 @@ a {
   /* =============== navigation ================== */
   .nav {
     height: 64px;
+    padding: 0.5% 0.5% 0.5% 1.5%;
   }
 
   .logo {
     max-width: 20%;
     margin: 0 10% 0 0;
+  }
+  .nav__links {
+    margin: 8px 0 0;
   }
 
   .nav__links > li > a {
@@ -866,7 +870,7 @@ a {
   /* =============== navigation ================== */
   .nav {
     height: 62px;
-    padding: 0.4% 0.5% 0.5% 1.5%;
+    padding: 0.5% 0.5% 0.5% 1.5%;
   }
 
   .logo {
@@ -897,6 +901,9 @@ a {
   }
 
   /* =============== header-title ================== */
+  .header {
+    height: 768px;
+  }
 
   .header__title {
     font-size: 3.5rem;
@@ -913,6 +920,26 @@ a {
   .header__container > button {
     height: 62px;
     font-size: 1rem;
+  }
+
+  .ellipse-1 {
+    left: 5%;
+  }
+
+  .ellipse-2 {
+    top: 530px;
+  }
+  .ellipse-4 {
+    right: 5%;
+    top: 458px;
+  }
+
+  .ellipse-5 {
+    right: 8%;
+  }
+  /* =============== partners ================== */
+  .main {
+    padding: 800px 3% 0;
   }
 
   /* =============== whyVolunteer ================== */
@@ -1008,6 +1035,9 @@ a {
   .logo {
     max-width: 16%;
     margin-right: 2%;
+  }
+  .nav__links {
+    margin: 10px 0 0;
   }
   .nav__links > li > a {
     font-size: 1rem;
