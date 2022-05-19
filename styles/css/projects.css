@@ -49,7 +49,11 @@
   border-radius: 40px;
   background-color: #ffffff;
   border: 1px solid #e6ebf4;
-  padding: 0.5% 0.5% 0.5% 1.5%;
+  padding: 0.6% 0.5% 0.5% 1.5%;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.2);
 }
 .nav__menu {
   display: flex;
@@ -99,6 +103,10 @@ a {
   line-height: 1.5rem;
   padding: 14px 38px 14px 24px;
   cursor: pointer;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.1);
 }
 
 .nav_button_btc {
@@ -120,6 +128,8 @@ a {
 
 .nav_button_btc:hover {
   background-color: #fde08c;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .nav_button_btc:focus {
@@ -133,6 +143,8 @@ a {
 
 .nav_button_dollar:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .nav_button_dollar:focus {
@@ -182,14 +194,21 @@ a {
   background: #ffd100;
   border-radius: 40px;
   border: none;
-  padding: 14px 24px 14px 16px;
+  padding: 10px 24px 14px 16px;
   font-family: Montserrat-SemiBold;
   font-size: 1.25rem;
   margin-right: 16px;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .ourProject__button_volunteer:hover {
   background-color: #fde08c;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .ourProject__button_volunteer:focus {
@@ -207,10 +226,17 @@ a {
   padding: 14px 24px 14px 16px;
   font-family: Montserrat-SemiBold;
   font-size: 1.25rem;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .ourProject__button_partner:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .ourProject__button_partner:focus {
@@ -228,6 +254,10 @@ a {
   background: #e3f2fe;
   border-radius: 80px;
   padding: 160px 15%;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .contact__title {
@@ -301,10 +331,16 @@ a {
   color: #071232;
   resize: none;
   outline: none;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .inputYourData:focus {
   border: 1px solid #0099fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
 }
 
 .input__sendButton {
@@ -319,10 +355,17 @@ a {
   font-size: 1.25rem;
   margin: 0 auto;
   position: relative;
+  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.05),
+    15px 15px 15px rgba(0, 0, 0, 0.05),
+    inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.5), 0 50px 40px rgba(0, 0, 0, 0.3);
 }
 
 .input__sendButton:hover {
   background-color: #5fb7fe;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .input__sendButton:focus {

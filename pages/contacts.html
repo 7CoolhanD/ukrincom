@@ -9,6 +9,7 @@
     />
     <link rel="stylesheet" href="../styles/css/modern-normalize.css" />
     <link rel="stylesheet" href="../styles/css/contacts.css" />
+    <link rel="stylesheet" href="../styles/css/modal.css" />
     <title>contacts</title>
   </head>
   <body>
@@ -41,7 +42,11 @@
             </li>
           </ul>
           <div class="nav__buttons">
-            <button class="nav_button_btc">
+            <button
+              class="nav_button_btc"
+              type="button"
+              data-action="open-modal"
+            >
               Підтримати
               <img src="../img/icons_SVG/bitcoin-(btc).svg" alt="btc" />
             </button>
@@ -190,6 +195,107 @@
         </div>
       </footer>
     </div>
+    <div class="backdrop__modal js-backdrop">
+      <div class="modal">
+        <h3>Підтримай нас кріптовалютою</h3>
+        <span class="close-modal"></span>
+        <div class="modal_container">
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/solana.svg" alt="Solana" />
+            <div class="modal__title-container">
+              <h6>Solana</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />
+              Копіювати
+            </button>
+          </div>
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/Ethereum.svg" alt="Ethereum" />
+            <div class="modal__title-container">
+              <h6>Ethereum</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />Копіювати
+            </button>
+          </div>
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/Tether.svg" alt="Tether" />
+            <div class="modal__title-container">
+              <h6>Tether</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />Копіювати
+            </button>
+          </div>
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/Binance.svg" alt="Binance" />
+            <div class="modal__title-container">
+              <h6>Binance</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />Копіювати
+            </button>
+          </div>
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/Cosmos.svg" alt="Cosmos" />
+            <div class="modal__title-container">
+              <h6>Cosmos</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />Копіювати
+            </button>
+          </div>
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/Ton.svg" alt="Ton" />
+            <div class="modal__title-container">
+              <h6>Ton</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />Копіювати
+            </button>
+          </div>
+          <div class="modal__item-container">
+            <img src="../img/modal_svg/Avalanche.svg" alt="Avalanche" />
+            <div class="modal__title-container">
+              <h6>Avalanche</h6>
+              <p>0x24f072ee514e9785214e7a8ed0784dfe612d99b6</p>
+            </div>
+            <button>
+              <img
+                src="../img/modal_svg/document-copy.svg"
+                alt="document-copy"
+              />Копіювати
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="../scripts/nav_script.js"></script>
+    <script src="../scripts/modal.js"></script>
   </body>
 </html>
